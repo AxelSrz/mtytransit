@@ -11,21 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define() do
 
-# Could not dump table "Agency" because of following NoMethodError
+# Could not dump table "agencies" because of following NoMethodError
 #   undefined method `type' for "int(11)":String
 
-# Could not dump table "Arrival" because of following NoMethodError
+# Could not dump table "arrivals" because of following NoMethodError
 #   undefined method `type' for "int(11)":String
 
-# Could not dump table "Route" because of following NoMethodError
+# Could not dump table "routes" because of following NoMethodError
 #   undefined method `type' for "int(11)":String
 
-# Could not dump table "Stop" because of following NoMethodError
+# Could not dump table "stops" because of following NoMethodError
 #   undefined method `type' for "int(11)":String
 
-# Could not dump table "Trip" because of following NoMethodError
+# Could not dump table "trips" because of following NoMethodError
 #   undefined method `type' for "int(11)":String
 
 end
