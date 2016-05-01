@@ -1,0 +1,18 @@
+<table class="table table-bordered table-striped table-condensed">
+  <thead>
+    <tr>
+      <th>Agencies</th>
+    </tr>
+  </thead>
+  <tbody>
+      <% @agencies.each do |p| %>
+      <tr>
+          <td><%= p['AgencyId'] %></td>
+          <td><%= p['AgencyName'] %></td>
+          <td><%= p['AgencyUrl'] %></td>
+          <td><%= p['AgencyPhone'] %></td>
+          <td><%= p['AgencyAdress'] %></td>
+      </tr>
+      <% end %>
+  </tbody>
+</table>
